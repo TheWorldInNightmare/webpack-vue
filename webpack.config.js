@@ -25,7 +25,7 @@ module.exports = {
     },
     plugins: [
         new VueLoaderPlugin(),
-        new Webpack.HotModuleReplacementPlugin()//热重载
+        new Webpack.HotModuleReplacementPlugin(),//热重载
     ]
     
 };
